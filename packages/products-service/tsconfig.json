@@ -1,0 +1,7 @@
+{
+	"extends": "../../tsconfig.base.json",
+	"compilerOptions": {
+		"types": ["@cloudflare/workers-types"] /* Specify type package names to be included without being referenced in a source file. */
+	},
+	"exclude": ["test"]
+}
